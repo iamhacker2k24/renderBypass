@@ -12,16 +12,22 @@ WEBSITE_URL1 = ""
 // thant means all server startrf in one loading 
 
 
+const callAll = async () => { // this fn helps to live all other sbackedn url ok 
 
 
+    
+}
 
-app.get("/health", (req, res) => {
+
+app.get("/api/health", (req, res) => {
+
     res.json(200).json({
         sucess: true,
         msg: "main server started "
     })
 })
 
+app.get("")
 app.listen("/", () => {
     console.log("server started at 300")
 })
