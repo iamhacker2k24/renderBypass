@@ -24,6 +24,6 @@ const callAllBackendUrl = async () => {
     return true
 }
 
-callAllBackendUrl()
+// callAllBackendUrl()
 
 module.exports = callAllBackendUrl
